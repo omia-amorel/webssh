@@ -5,4 +5,4 @@ RUN pip install --upgrade pip
 RUN pip install webssh
 RUN rm -rf /root/.cache/*
 EXPOSE 8080
-CMD ["wssh", "--address=0.0.0.0", "--port=8080"]
+CMD ["wssh", "--address=0.0.0.0", "--port=443"]
